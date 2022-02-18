@@ -22,7 +22,7 @@ const Search = () => {
             ref={searchRef}
             value={text}
             type="text"
-            className="sm:w-96 w-80 h-10 dark:bg:gray-200 border rounded-full shadow-sm outline-none p-6 text-black hover:shadow-lg"
+            className="sm:w-96 w-80 h-10 dark:bg:gray-200 border rounded-full shadow-sm outline-none p-6 text-black hover:shadow-lg focus:border:"
             placeholder="Search Googali or type URL"
             onChange={(e) => setText(e.target.value)}
         />
