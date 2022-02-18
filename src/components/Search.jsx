@@ -12,7 +12,6 @@ const Search = () => {
     const searchRef = useRef(null)
 
     useEffect(() => {
-        console.log(debouncedValue)
         if(debouncedValue) setSearchTerm(debouncedValue)
     }, [debouncedValue])
 
