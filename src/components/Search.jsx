@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from 'react'
 import { useDebounce } from 'use-debounce'
 
 import { useResultContext } from '../contexts/ResultContextProvider'
+
 import Links from './Links'
 
 const Search = () => {
